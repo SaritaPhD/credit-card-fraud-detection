@@ -27,7 +27,7 @@ class MainUtils:
         try:
             schema_config = self.read_yaml_file(os.path.join("config", "schema.yaml"))
 
-            return schema_config
+            return schema_config 
 
         except Exception as e:
             raise CustomException(e, sys) from e
