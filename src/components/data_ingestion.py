@@ -9,7 +9,7 @@ from src.exception import CustomException
 from src.logger import logging 
 
 from src.utils.main_utils import MainUtils
-from dataclasses import dataclass 
+from dataclasses import dataclass  
 
 
 @dataclass
